@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentoPregunta">
+
+
+    <TextView
+        android:id="@+id/txtSaludo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="25dp"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:hint="aqui va el nombre"
+        android:textColor="#0027FF"
+        android:textSize="22sp" />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginVertical="85dp"
+        android:src="@drawable/mclovin" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginVertical="300dp"
+        android:textColor="#1130DC"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="¿Cual es el nombre de este personaje?"/>
+
+    <Button
+        android:id="@+id/btnEnviar"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginVertical="520dp"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="#A89E9E"
+        android:text="ENVIAR"
+        android:textColor="#000000"
+        android:textSize="22sp" />
+
+    <RadioGroup
+        android:id="@+id/rg"
+        android:layout_width="183dp"
+        android:layout_height="177dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginVertical="330sp">
+
+
+        <RadioButton
+            android:id="@+id/rb1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nacho Larrain"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/rb2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="El niño poeta"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/rb3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mc Lovin"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/rb4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chico Terry"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+    </RadioGroup>
+</FrameLayout>
